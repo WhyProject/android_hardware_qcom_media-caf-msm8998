@@ -2333,6 +2333,7 @@ OMX_ERRORTYPE  omx_venc::set_config(OMX_IN OMX_HANDLETYPE      hComp,
                     DEBUG_PRINT_ERROR("Failed to set perf level");
                     return OMX_ErrorUnsupportedSetting;
                 }
+                break;
             }
         case OMX_IndexConfigAndroidVendorExtension:
             {
